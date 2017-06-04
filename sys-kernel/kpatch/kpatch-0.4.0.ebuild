@@ -64,6 +64,6 @@ src_prepare() {
 }
 
 src_install() {
-	# KPATCH_BUILD ?= /lib/modules/$(shell uname -r)/build
-	emake -j1 DESTDIR="${D}" install
+	unset ARCH
+	emake DESTDIR="${D}" all install
 }
