@@ -19,7 +19,7 @@ HOMEPAGE="https://github.com/dynup/kpatch"
 LICENSE="GPL-2+"
 
 SLOT="0"
-IUSE="test examples +modules"
+IUSE="examples +modules test"
 
 DEPEND="
 	sys-devel/bison
