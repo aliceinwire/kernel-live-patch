@@ -17,6 +17,7 @@ fi
 DESCRIPTION="Dynamic kernel patching for Linux"
 HOMEPAGE="https://github.com/dynup/kpatch"
 LICENSE="GPL-2+"
+
 SLOT="0"
 IUSE="test examples +modules"
 
